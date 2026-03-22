@@ -57,7 +57,7 @@ git push -u origin main
 
 ### 步骤 5: 访问网站
 
-访问: `https://liankong31.github.io/liqi.github.io/`
+访问: `https://liankong31.github.io/liqi`
 
 ---
 
