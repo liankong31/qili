@@ -23,11 +23,10 @@
                     <div class="badges">
                         <span class="badge"><i class="fas fa-trophy"></i> 2× Best Paper Award</span>
                         <span class="badge"><i class="fas fa-graduation-cap"></i> Ph.D. Computer Science</span>
-                        <!-- <span class="badge"><i class="fas fa-chart-line"></i> 15+ Publications</span> -->
                     </div>
                 </div>
             </div>
-            
+
             <div class="contact-bar">
                 <a href="mailto:qi.li@queensu.ca" class="contact-link">
                     <i class="fas fa-envelope"></i> qi.li@queensu.ca
@@ -35,14 +34,8 @@
                 <a href="https://liankong31.github.io/liqi" class="contact-link" target="_blank">
                     <i class="fas fa-globe"></i> Homepage
                 </a>
-             <!--    <a href="tel:+12262038602" class="contact-link">
-                    <i class="fas fa-phone"></i> +1 (226) 203-8602
-                </a> -->
                 <div class="social-links">
-                    <!-- <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
                     <a href="https://scholar.google.ca/citations?hl=en&user=bv4ckZgAAAAJ&view_op=list_works&sortby=pubdate" class="social-icon" title="Google Scholar" target="_blank"><i class="fab fa-google"></i></a>
-                <!--     <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a> -->
                 </div>
             </div>
         </div>
@@ -57,7 +50,8 @@
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#service">Service</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -70,21 +64,23 @@
             <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
             <div class="content-box">
                 <p>
-                    I am a <strong>Postdoctoral Research Fellow</strong> at the School of Computing, Queen's University, Canada, 
-                    working under the supervision of Dr. Mohammad Zulkernine and Dr. Jianbing Ni. My research focuses on 
-                    <strong>Generative AI Security</strong>, <strong>Digital Forensics</strong>, and <strong>Applied Cryptography</strong>.
+                    I am a <strong>Postdoctoral Research Fellow</strong> at the School of Computing, Queen's University, Canada,
+                    working under the supervision of Dr. Mohammad Zulkernine (CRC Tier 1) and Dr. Jianbing Ni. I also served as an
+                    <strong>Adjunct Assistant Professor</strong> in the Department of Electrical and Computer Engineering at Queen's
+                    University in Fall 2024. My research focuses on
+                    <strong>Generative AI Security</strong>, <strong>Digital Forensics</strong>, <strong>Trustworthy LLMs</strong>,
+                    and <strong>Privacy-Preserving Machine Learning</strong>.
                 </p>
                 <p>
-                    I received my Ph.D. in Computer Science from the University of Guelph (2021-2024), where I specialized in 
-                    audio forensic analysis and authentication using deep learning. Prior to that, I earned my M.Sc. in Cyber Security 
-                    from Xidian University, China, and my B.Sc. in Computational Mathematics from East China Jiaotong University, 
-                    where I ranked <strong>1st out of 55 students</strong>.
+                    I received my Ph.D. in Computer Science from the University of Guelph (2021-2024) under the supervision of the late
+                    Prof. Xiaodong Lin (IEEE Fellow), where I specialized in audio forensic analysis and authentication using deep
+                    learning. Prior to that, I earned my M.Sc. in Cyber Security from Xidian University, China.
                 </p>
-               <!--  <p>
-                    My work has been recognized with <strong>two Best Paper Awards</strong> (PST 2024 and ISC 2021), and I have 
-                    published in top-tier venues including IEEE Transactions, USENIX Security, and ACL. I am actively seeking 
-                    industry opportunities in AI Security, Frontend Development with AI integration, and Digital Forensics.
-                </p> -->
+                <p>
+                    My work has been recognized with <strong>two Best Paper Awards</strong> (PST 2024 and ISC 2021), and I have published
+                    in top-tier venues including <strong>USENIX Security</strong>, IEEE TDSC, IEEE TMM, IEEE TIFS, IEEE IoT Journal,
+                    ESORICS, DFRWS, and ICASSP.
+                </p>
             </div>
         </section>
 
@@ -115,12 +111,12 @@
                 <div class="interest-card">
                     <div class="icon"><i class="fas fa-lock"></i></div>
                     <h3>Privacy-Preserving ML</h3>
-                    <p>Differential Privacy, Federated Learning, Anonymization Techniques</p>
+                    <p>Differential Privacy, Federated Learning, Generative Adversarial Privacy</p>
                 </div>
                 <div class="interest-card">
                     <div class="icon"><i class="fas fa-car"></i></div>
-                    <h3>Autonomous Systems</h3>
-                    <p>Security for Connected Vehicles, Anomaly Detection, 6G Security</p>
+                    <h3>Trustworthy LLMs</h3>
+                    <p>Jailbreak Defense, Unlearning, Watermark Robustness, LLM Coding Agents</p>
                 </div>
             </div>
         </section>
@@ -128,93 +124,35 @@
         <!-- Publications Section -->
         <section id="publications" class="section">
             <h2 class="section-title"><i class="fas fa-book"></i> Publications</h2>
-            
+
             <div class="pubs-tabs">
-                <!-- <button class="tab-btn active" data-tab="under-review">Under Review (9)</button> -->
-                <button class="tab-btn active" data-tab="conference">Conference Papers (9)</button>
-                   <button class="tab-btn" data-tab="journal">Journal Papers (3)</button>
+                <button class="tab-btn active" data-tab="journal">Journal Papers (6)</button>
+                <button class="tab-btn" data-tab="conference">Conference Papers (13)</button>
+                <button class="tab-btn" data-tab="under-review">Under Review / In Preparation (13)</button>
             </div>
 
-        <!--     <div id="under-review" class="pubs-content active">
+            <!-- Journal Papers -->
+            <div id="journal" class="pubs-content active">
                 <div class="publication">
                     <div class="pub-meta">
                         <span class="pub-badge">IEEE TMM</span>
                         <span class="pub-year">2026</span>
                     </div>
-                    <h4><strong>Qi Li</strong>, Jianbing Ni, Xiaodong Lin. "CANARY: Collision-Free Audio Watermarking for Proactive Deepfake Detection."</h4>
+                    <h4><strong>Qi Li</strong>, Jianbing Ni, Xiaodong Lin. "CANARY: Collision-Free Audio Watermarking for Proactive Deepfake Detection." (to appear)</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
                         <span class="pub-badge">IEEE TDSC</span>
                         <span class="pub-year">2026</span>
                     </div>
-                    <h4><strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine, Rongxing Lu. "Bridging Black-Box and No-Box: Embedding Reconstruction Attacks on Deep Recognition Systems." (Second Round)</h4>
+                    <h4><strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine, Rongxing Lu. "Bridging Black-Box and No-Box: Embedding Reconstruction Attacks on Deep Recognition Systems." (to appear)</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
-                        <span class="pub-badge">ACL 2026</span>
+                        <span class="pub-badge">Journal of Information and Intelligence</span>
                         <span class="pub-year">2026</span>
                     </div>
-                    <h4><strong>Qi Li</strong>, Jie Cao, Jianbing Ni, Mohammad Zulkernine. "Stratified Count Fairness: Resolving the Global-Local Mismatch in Red-Green LLM Watermarking."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">USENIX Security 2026</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4>Jie Cao, <strong>Qi Li</strong>, et al. "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">DFRWS APAC 2026</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4><strong>Qi Li</strong>, Xiaodong Lin, Jianbing Ni, Mohammad Zulkernine. "Deep Learning-Based Facial Reconstruction from Eyewitness Accounts in Forensics."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">ACISP 2026</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4>Yutong Jin, <strong>Qi Li</strong>, Lingshuang Liu, Jianbing Ni. "MelShield: Robust Mel-Domain Audio Watermarking for Provenance Attribution of AI Generated Synthesized Speech."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">IEEE TIFS</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4>Wenjing Zhang, <strong>Qi Li*</strong>, Ming Li, Ravi Tandon, Xiaodong Lin. "Releasing Spatial-Temporal Density Data with Generative Adversarial Privacy." (*Corresponding Author)</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">IEEE TIV</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4>Razieh Abbasi, <strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine. "PUAD-CAV: Privacy-Preserving Unsupervised Anomaly Detection for Connected and Autonomous Vehicles."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">USENIX Security 2026</span>
-                        <span class="pub-year">2026</span>
-                    </div>
-                    <h4>Xiaodong Wu, <strong>Qi Li</strong>, et al. "Are Watermarked Images Editable? A Model-Agnostic Framework for Watermark-Preserving Text-Guided Image Manipulation."</h4>
-                </div>
-            </div> -->
-
-            <div id="journal" class="pubs-content">
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">IEEE IoT Journal</span>
-                        <span class="pub-year">2021</span>
-                    </div>
-                    <h4><strong>Qi Li</strong>, Xiaodong Lin. "Efficient and Privacy-Preserving Speaker Recognition for Cybertwin-Driven 6G."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">Forensic Science International</span>
-                        <span class="pub-year">2022</span>
-                    </div>
-                    <h4><strong>Qi Li</strong>, Giuliano Sovernigo, Xiaodong Lin. "BlackFeather: A framework for background noise forensics."</h4>
+                    <h4>Zelin Zhang, <strong>Qi Li</strong>, Jie Cao, Lingshuang Liu, Jianbing Ni. "From AI-Generated Content to Agentic Action: Security and Safety Threats in Generative AI."</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
@@ -223,52 +161,30 @@
                     </div>
                     <h4>Yao Liu, Tanping Zhou, Zelun Yue, Wenchao Liu, Liang Yi Han, <strong>Qi Li</strong>, Xiaoyuan Yang. "Secure and Efficient Online Fingerprint Authentication Scheme Based On Cloud Computing."</h4>
                 </div>
-            </div>
-
-            <div id="conference" class="pubs-content active">
                 <div class="publication">
                     <div class="pub-meta">
-                        <span class="pub-badge">PST 2024</span>
-                        <span class="pub-year">2024</span>
-                        <span class="award-badge">🏆 Best Paper Award</span>
-                    </div>
-                    <h4><strong>Qi Li</strong>, Xiaodong Lin. "Proactive Audio Authenticity using Speaker Identity Watermarking."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">DFRWS-USA 2022</span>
+                        <span class="pub-badge">Forensic Science International: Digital Investigation</span>
                         <span class="pub-year">2022</span>
                     </div>
                     <h4><strong>Qi Li</strong>, Giuliano Sovernigo, Xiaodong Lin. "BlackFeather: A framework for background noise forensics."</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
-                        <span class="pub-badge">IEEE ICC 2019</span>
-                        <span class="pub-year">2019</span>
-                    </div>
-                    <h4><strong>Qi Li</strong>, Hui Zhu, et al. "Spoofing Attacks on Speaker Verification Systems Based Generated Voice using Genetic Algorithm."</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">ISC 2021</span>
+                        <span class="pub-badge">IEEE IoT Journal</span>
                         <span class="pub-year">2021</span>
-                        <span class="award-badge">🏆 Best Paper Award</span>
                     </div>
-                    <h4>Panpan Lu*, <strong>Qi Li*</strong>, et al. "Voxstructor: Voice reconstruction from voiceprint." (*Equal Contribution)</h4>
+                    <h4><strong>Qi Li</strong>, Xiaodong Lin. "Efficient and Privacy-Preserving Speaker Recognition for Cybertwin-Driven 6G."</h4>
                 </div>
+            </div>
+
+            <!-- Conference Papers -->
+            <div id="conference" class="pubs-content">
                 <div class="publication">
                     <div class="pub-meta">
-                        <span class="pub-badge">TrustCom 2025</span>
-                        <span class="pub-year">2025</span>
+                        <span class="pub-badge">USENIX Security 2026</span>
+                        <span class="pub-year">2026</span>
                     </div>
-                    <h4>Xia Han*, <strong>Qi Li*</strong>, Jianbing Ni, Mohammad Zulkernine. "Robustness Assessment and Enhancement of Text Watermarking for Google's SynthID." (*Equal Contribution)</h4>
-                </div>
-                <div class="publication">
-                    <div class="pub-meta">
-                        <span class="pub-badge">FPT 2023</span>
-                        <span class="pub-year">2023</span>
-                    </div>
-                    <h4>Timothy Martin, <strong>Qi Li</strong>, et al. "A Deep-Learning Data-Driven Approach for Reducing FPGA Routing Runtimes."</h4>
+                    <h4>Jie Cao, <strong>Qi Li</strong>, Zelin Zhang, Xiaodong Wu, Lingshuang Liu, Xiangman Li, Jianbing Ni. "MarkNull: Model-Agnostic Watermark Removal in AI-Generated Images via On-Manifold Latent Manipulation." (to appear)</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
@@ -279,10 +195,68 @@
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
+                        <span class="pub-badge">ACISP 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Yutong Jin, <strong>Qi Li</strong>, Lingshuang Liu, Jianbing Ni. "MelShield: Robust Mel-Domain Audio Watermarking for Provenance Attribution of AI Generated Synthesized Speech." (to appear)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ACISP 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Xiaodong Wu, Xiangman Li, <strong>Qi Li</strong>, Jianbing Ni. "A Comprehensive Security Analysis of Jailbreak Resilience in GPT and DeepSeek Models." (to appear)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ICICS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Nicholas Chivaran, <strong>Qi Li</strong>, Jianbing Ni. "DiTMark: A First Look at Model Ownership for Diffusion Transformers." (to appear)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
                         <span class="pub-badge">ESORICS 2025</span>
                         <span class="pub-year">2025</span>
                     </div>
                     <h4>Xiaodong Wu, Xiangman Li, <strong>Qi Li</strong>, Jianbing Ni, Rongxing Lu. "SecureT2I: No More Unauthorized Manipulation on AI Generated Images from Prompts."</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">TrustCom 2025</span>
+                        <span class="pub-year">2025</span>
+                    </div>
+                    <h4>Xia Han*, <strong>Qi Li*</strong>, Jianbing Ni, Mohammad Zulkernine. "Robustness Assessment and Enhancement of Text Watermarking for Google's SynthID." (*Equal Contribution)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">PST 2024</span>
+                        <span class="pub-year">2024</span>
+                        <span class="award-badge">🏆 Best Paper Award</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Xiaodong Lin. "Proactive Audio Authenticity using Speaker Identity Watermarking."</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">FPT 2023</span>
+                        <span class="pub-year">2023</span>
+                    </div>
+                    <h4>Timothy Martin, <strong>Qi Li</strong>, Charlotte Barnes, Gary Grewal, Shawki Areibi. "A Deep-Learning Data-Driven Approach for Reducing FPGA Routing Runtimes."</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">DFRWS-USA 2022</span>
+                        <span class="pub-year">2022</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Giuliano Sovernigo, Xiaodong Lin. "BlackFeather: A framework for background noise forensics."</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ISC 2021</span>
+                        <span class="pub-year">2021</span>
+                        <span class="award-badge">🏆 Best Paper Award</span>
+                    </div>
+                    <h4>Panpan Lu*, <strong>Qi Li*</strong>, Hui Zhu, Giuliano Sovernigo, Xiaodong Lin. "Voxstructor: Voice reconstruction from voiceprint." (*Equal Contribution)</h4>
                 </div>
                 <div class="publication">
                     <div class="pub-meta">
@@ -291,13 +265,102 @@
                     </div>
                     <h4>Xuesong Gao, Keqiu Li, Weiqiang Chen, Weifeng Hu, Ziling Zhang, <strong>Qi Li</strong>. "Efficient and Privacy-Preserving Speaker Verification Scheme for Home Automation Devices."</h4>
                 </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">IEEE ICC 2019</span>
+                        <span class="pub-year">2019</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Hui Zhu, Ziling Zhang, Rongxing Lu, Fengwei Wang, Hui Li. "Spoofing Attacks on Speaker Verification Systems Based on Generated Voice Using Genetic Algorithm."</h4>
+                </div>
+            </div>
+
+            <!-- Under Review / In Preparation -->
+            <div id="under-review" class="pubs-content">
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">IEEE TIFS</span>
+                        <span class="pub-year">2026</span>
+                        <span class="award-badge">Minor Revision</span>
+                    </div>
+                    <h4>Wenjing Zhang, <strong>Qi Li*</strong>, Ming Li, Ravi Tandon, Xiaodong Lin. "Releasing Spatial-Temporal Density Data with Generative Adversarial Privacy." (*Corresponding Author)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ACM CCS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine. "Information-Theoretic Impossibility of Token-Level Watermark Recovery in Multi-LLM Pipelines." (under review)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ACM CCS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Xiaodong Wu, Zhimin Zhao, <strong>Qi Li</strong>, Bram Adams, Jianbing Ni. "SkillShield: Prompt-Space Security Skills for LLM Coding Agents." (under review)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">ACM CCS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine. "MIRAGE: Robust and Undetectable Watermarking for Diffusion-Generated Images." (to be submitted)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">NeurIPS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Jie Cao, Jianbing Ni, Mohammad Zulkernine. "Stratified Count Fairness: Resolving the Global-Local Mismatch in Red-Green LLM Watermarking." (to be submitted)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">NeurIPS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Zelin Zhang, <strong>Qi Li</strong>, Lingshuang Liu, Jianbing Ni, Yong Yu, Xiaodong Wu. "Manifold Signatures: Detecting AI-Generated Images from Diffusion Inversion Geometry." (submitted)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">NeurIPS 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Xiaodong Wu, <strong>Qi Li</strong>, Jie Cao, Xiangman Li, Lingshuang Liu, Jianbing Ni. "Are Watermarked Images Editable? SafeMark for Watermark-Preserving Text-Guided Image Editing." (to be submitted)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">IEEE TDSC</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Xiangman Li, Xiaodong Wu, <strong>Qi Li</strong>, Jianbing Ni, Rongxing Lu. "SafeLLM: Unlearning Harmful Outputs from Large Language Models against Jailbreak Attacks." (under review)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">IEEE IoT Journal</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Razieh Abbasi, <strong>Qi Li</strong>, Jianbing Ni, Mohammad Zulkernine. "PUAD-CAV: Privacy-Preserving Unsupervised Anomaly Detection for Connected and Autonomous Vehicles." (under review)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">Engineering</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4>Jianbing Ni, Jie Cao, <strong>Qi Li</strong>, Zelin Zhang, Rongxing Lu, Xuemin (Sherman) Shen. "Secure and Robust Watermarking for AI-generated Images: A Comprehensive Survey." (under review)</h4>
+                </div>
+                <div class="publication">
+                    <div class="pub-meta">
+                        <span class="pub-badge">DFRWS APAC 2026</span>
+                        <span class="pub-year">2026</span>
+                    </div>
+                    <h4><strong>Qi Li</strong>, Xiaodong Lin, Jianbing Ni, Mohammad Zulkernine. "Deep Learning-Based Facial Reconstruction from Eyewitness Accounts in Forensics." (submitted)</h4>
+                </div>
             </div>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section">
             <h2 class="section-title"><i class="fas fa-project-diagram"></i> Research Projects</h2>
-            
+
             <div class="project">
                 <div class="project-header">
                     <h3>Watermarking and Provenance for Generative AI</h3>
@@ -306,12 +369,12 @@
                 <div class="project-content">
                     <p><strong>Focus:</strong> LLMs, Text-to-Speech, Text-to-Image Generation</p>
                     <ul>
-                        <li>Developed robust, quality-preserving watermarking for AI-synthesized speech to support deepfake detection and integrity verification</li>
+                        <li>Developed robust, quality-preserving watermarking for AI-synthesized speech to support deepfake detection and integrity verification (<strong>CANARY</strong>, IEEE TMM 2026)</li>
                         <li>Proposed <strong>Stratified Count Fairness (SCF)</strong> to resolve the Global-Local mismatch in PRF-based red/green LLM watermarking under head-limited decoding</li>
-                        <li>Designed HF/SSQ operating points for forensic vs. low-latency deployment scenarios</li>
-                        <li>Investigated model-agnostic watermark security for text-to-image generation, including no-box/black-box removal attacks</li>
-                        <li>Studied watermark-preserving editability of watermarked images under robustness constraints</li>
-                        <li>Conducted security analysis of jailbreak resilience and explored unlearning harmful outputs in LLMs</li>
+                        <li>Established information-theoretic impossibility results for token-level watermark recovery in multi-LLM pipelines</li>
+                        <li>Investigated model-agnostic watermark security for text-to-image generation, including <strong>MarkNull</strong> (USENIX Security 2026), <strong>MarkSweep</strong> (ICASSP 2026), and <strong>SafeMark</strong></li>
+                        <li>Designed <strong>SkillShield</strong>, a prompt-space security framework for LLM coding agents</li>
+                        <li>Studied jailbreak resilience of GPT/DeepSeek and proposed <strong>SafeLLM</strong> for harmful output unlearning</li>
                     </ul>
                 </div>
             </div>
@@ -324,11 +387,10 @@
                 <div class="project-content">
                     <p><strong>Focus:</strong> Privacy-Preserving Analytics, Autonomous Vehicles</p>
                     <ul>
-                        <li>Developed embedding reconstruction attacks bridging black-box and no-box settings</li>
+                        <li>Developed embedding reconstruction attacks bridging black-box and no-box settings (IEEE TDSC 2026)</li>
                         <li>Evaluated privacy leakage risks in deep recognition systems</li>
-                        <li>Investigated privacy-preserving data release for spatial-temporal density analytics using generative mechanisms</li>
-                        <li>Served as corresponding author on generative privacy research</li>
-                        <li>Studied privacy-preserving unsupervised anomaly detection for connected and autonomous vehicles</li>
+                        <li>Investigated privacy-preserving data release for spatial-temporal density analytics using generative adversarial mechanisms (IEEE TIFS, minor revision; corresponding author)</li>
+                        <li>Studied privacy-preserving unsupervised anomaly detection for connected and autonomous vehicles (<strong>PUAD-CAV</strong>)</li>
                         <li>Co-authored comprehensive survey on secure and robust watermarking for AI-generated images</li>
                     </ul>
                 </div>
@@ -342,9 +404,9 @@
                 <div class="project-content">
                     <p><strong>Focus:</strong> Deepfake Detection, Speaker Authentication, Background Noise Analysis</p>
                     <ul>
-                        <li>Proposed proactive audio authenticity via speaker-identity watermarking for integrity verification</li>
-                        <li>Designed <strong>BlackFeather</strong>, a background-noise forensics framework for source/context analysis</li>
-                        <li>Developed efficient and privacy-preserving speaker recognition protocols for cybertwin-driven 6G settings</li>
+                        <li>Proposed proactive audio authenticity via speaker-identity watermarking (<strong>PST 2024, Best Paper Award</strong>)</li>
+                        <li>Designed <strong>BlackFeather</strong>, a background-noise forensics framework for source/context analysis (DFRWS-USA 2022 / FSI:DI 2022)</li>
+                        <li>Developed efficient and privacy-preserving speaker recognition protocols for cybertwin-driven 6G settings (IEEE IoT Journal 2021)</li>
                         <li>Built evaluation pipelines for robustness and quality trade-offs under compression, noise, and distribution shift</li>
                     </ul>
                 </div>
@@ -358,10 +420,25 @@
                 <div class="project-content">
                     <p><strong>Focus:</strong> Voice Reconstruction, Speaker Verification, Fingerprint Authentication</p>
                     <ul>
-                        <li>Co-developed <strong>Voxstructor</strong>: Voice reconstruction from voiceprints, analyzing inversion risks</li>
-                        <li>Developed and evaluated spoofing attacks on speaker verification systems using generated voice</li>
+                        <li>Co-developed <strong>Voxstructor</strong>: Voice reconstruction from voiceprints (<strong>ISC 2021, Best Paper Award</strong>)</li>
+                        <li>Developed and evaluated spoofing attacks on speaker verification systems using generated voice (ICC 2019)</li>
                         <li>Studied attacks and protection mechanisms for biometric template data</li>
                         <li>Worked on privacy-preserving verification protocols for authentication systems</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Grant Writing Experience</h3>
+                    <span class="project-period">2023 – 2025</span>
+                </div>
+                <div class="project-content">
+                    <ul>
+                        <li><strong>SafeSora: Safety-Aligned, Watermarked Text-to-Audio/Video Generation</strong><br>
+                            NVIDIA Academic Hardware Grant (8× A100 GPU cloud access for 6 months, 2025). <em>Role: lead proposal writer (awarded).</em></li>
+                        <li><strong>Mitigating Security, Privacy, and Ethical Impacts in Advanced Driver Assistance System</strong><br>
+                            National Cybersecurity Consortium (NCC), CAD $300,000 (2023). <em>Role: assisted in proposal preparation (PI: Prof. Mohammad Zulkernine).</em></li>
                     </ul>
                 </div>
             </div>
@@ -370,7 +447,7 @@
         <!-- Experience Section -->
         <section id="experience" class="section">
             <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience & Education</h2>
-            
+
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
@@ -378,7 +455,17 @@
                         <h3>Postdoctoral Research Fellow</h3>
                         <p class="timeline-org">School of Computing, Queen's University, Canada</p>
                         <p class="timeline-date">Jul 2024 – Present</p>
-                        <p>Supervisors: Dr. Mohammad Zulkernine & Dr. Jianbing Ni</p>
+                        <p>Supervisors: Dr. Mohammad Zulkernine (CRC Tier 1) & Dr. Jianbing Ni</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Adjunct Assistant Professor</h3>
+                        <p class="timeline-org">Department of Electrical and Computer Engineering, Queen's University, Canada</p>
+                        <p class="timeline-date">Sep – Dec 2024</p>
+                        <p>Instructor of Record for ELEC 473 "Cryptography and Network Security" (84 students)</p>
                     </div>
                 </div>
 
@@ -389,7 +476,7 @@
                         <p class="timeline-org">University of Guelph, Canada</p>
                         <p class="timeline-date">Jan 2021 – Jun 2024</p>
                         <p><strong>Thesis:</strong> Audio Forensic Analysis and Authentication Using Deep Learning</p>
-                        <p><strong>GPA:</strong> 93/100 | <strong>Supervisor:</strong> Prof. Xiaodong Lin</p>
+                        <p><strong>GPA:</strong> 93/100 | <strong>Supervisor:</strong> Prof. Xiaodong Lin (IEEE Fellow)</p>
                     </div>
                 </div>
 
@@ -404,16 +491,6 @@
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>B.Sc. in Computational Mathematics</h3>
-                        <p class="timeline-org">East China Jiaotong University, Nanchang, China</p>
-                        <p class="timeline-date">Sep 2013 – Jul 2017</p>
-                        <p><strong>GPA:</strong> 92/100 | <strong>Ranking:</strong> 1/55</p>
-                        <p><strong>Project:</strong> Privacy-Preserving Face and Fingerprint Recognition</p>
-                    </div>
-                </div>
             </div>
 
             <h3 style="margin-top: 40px; margin-bottom: 20px;"><i class="fas fa-award"></i> Awards & Honors</h3>
@@ -456,83 +533,9 @@
                 <div class="award-card">
                     <div class="award-icon"><i class="fas fa-medal"></i></div>
                     <div class="award-content">
-                        <h4>Third Prize, Mathematical Contest in Modeling</h4>
+                        <h4>Third Prize, China Post-graduate Mathematical Contest in Modeling</h4>
                         <p>2018</p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <h2 class="section-title"><i class="fas fa-code"></i> Technical Skills</h2>
-            
-            <div class="skills-category">
-                <h3><i class="fas fa-language"></i> Programming Languages</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-python"></i></div>
-                        <div class="skill-name">Python</div>
-                        <div class="skill-level">Expert</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
-                        <div class="skill-name">PyTorch</div>
-                        <div class="skill-level">Expert</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
-                        <div class="skill-name">TensorFlow</div>
-                        <div class="skill-level">Advanced</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-cuttlefish"></i></div>
-                        <div class="skill-name">C++</div>
-                        <div class="skill-level">Advanced</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-java"></i></div>
-                        <div class="skill-name">Java</div>
-                        <div class="skill-level">Intermediate</div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-microchip"></i></div>
-                        <div class="skill-name">MATLAB</div>
-                        <div class="skill-level">Intermediate</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills-category">
-                <h3><i class="fas fa-robot"></i> AI/ML Frameworks</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Deep Learning (CNN, RNN, Transformer, Diffusion Models)</span>
-                    <span class="skill-tag">Audio Processing (Librosa, PyAudio, SpeechBrain)</span>
-                    <span class="skill-tag">NLP (HuggingFace Transformers, spaCy)</span>
-                    <span class="skill-tag">Computer Vision (OpenCV, PIL, torchvision)</span>
-                    <span class="skill-tag">Generative AI (LLMs, TTS, T2I)</span>
-                </div>
-            </div>
-
-            <div class="skills-category">
-                <h3><i class="fas fa-shield-alt"></i> Security & Cryptography</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Cryptographic Protocols (Homomorphic Encryption, Paillier, Functional Encryption)</span>
-                    <span class="skill-tag">Privacy Techniques (Differential Privacy, Secure Multi-Party Computation)</span>
-                    <span class="skill-tag">Blockchain (Smart Contracts, Consensus Algorithms)</span>
-                    <span class="skill-tag">Security Analysis (Penetration Testing, Vulnerability Assessment)</span>
-                    <span class="skill-tag">Digital Forensics (Audio, Image, Network Forensics)</span>
-                </div>
-            </div>
-
-            <div class="skills-category">
-                <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
-                <div class="skills-list">
-                    <span class="skill-tag">Version Control (Git, GitHub, GitLab)</span>
-                    <span class="skill-tag">Cloud (AWS, Google Cloud Platform, Azure)</span>
-                    <span class="skill-tag">Containers (Docker, Kubernetes)</span>
-                    <span class="skill-tag">CI/CD (GitHub Actions, Jenkins)</span>
-                    <span class="skill-tag">LaTeX, Markdown, Jupyter Notebook</span>
                 </div>
             </div>
         </section>
@@ -540,17 +543,26 @@
         <!-- Teaching Section -->
         <section id="teaching" class="section">
             <h2 class="section-title"><i class="fas fa-chalkboard-teacher"></i> Teaching Experience</h2>
-            
+
+            <div class="content-box" style="margin-bottom: 20px;">
+                <p><strong>ELEC 473 Course Evaluation Highlights (Fall 2024):</strong></p>
+                <ul>
+                    <li><strong>100%</strong> of respondents rated "expectations clearly communicated" & "encouraged student engagement" favorably</li>
+                    <li><strong>91%</strong> agreed the workload was appropriate</li>
+                    <li>Student comments: <em>"One of the best profs I have had,"</em> and <em>"Explains the content very clearly and makes it easy to understand."</em></li>
+                </ul>
+            </div>
+
             <div class="teaching-grid">
                 <div class="teaching-card">
-                    <h4>Lecturer</h4>
-                    <p class="teaching-course">ELEC 473 "Cryptography and Network Security"</p>
-                    <p class="teaching-org">Queen's University | Sep-Dec 2024</p>
+                    <h4>Instructor of Record</h4>
+                    <p class="teaching-course">CIS*6710 "Principles and Practice of Information Security"</p>
+                    <p class="teaching-org">University of Guelph | Jan 2026 – Present</p>
                 </div>
                 <div class="teaching-card">
-                    <h4>Lecturer</h4>
-                    <p class="teaching-course">CIS*6710 "Principles and Practice of Information Security"</p>
-                    <p class="teaching-org">University of Guelph | Jan 2026–Present</p>
+                    <h4>Instructor of Record</h4>
+                    <p class="teaching-course">ELEC 473 "Cryptography and Network Security" (84 students)</p>
+                    <p class="teaching-org">Queen's University | Sep – Dec 2024</p>
                 </div>
                 <div class="teaching-card">
                     <h4>Guest Lecturer</h4>
@@ -582,27 +594,78 @@
                     <p class="teaching-course">MATH*1080 "Elements of Calculus I"</p>
                     <p class="teaching-org">University of Guelph | Fall 2022 (1000+ students)</p>
                 </div>
+                <div class="teaching-card">
+                    <h4>Teaching Assistant</h4>
+                    <p class="teaching-course">MATH*1160 "Linear Algebra I"</p>
+                    <p class="teaching-org">University of Guelph | Winter 2022 (200+ students)</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px; margin-bottom: 15px;"><i class="fas fa-users"></i> Mentoring</h3>
+            <div class="content-box">
+                <ul>
+                    <li><strong>Jie Cao</strong>, Ph.D. candidate at Queen's University (Sep 2024 – Present): Image watermarking research, led to USENIX Security 2026 publication. <em>Co-supervised with Dr. Jianbing Ni.</em></li>
+                    <li><strong>Zelin Zhang</strong>, Master's student at Queen's University (Jan 2025 – Present): Fake image detection, led to NeurIPS 2026 submission. <em>Co-supervised with Dr. Jianbing Ni.</em></li>
+                    <li><strong>Giuliano Sovernigo</strong>, Master's student at University of Guelph (Jan 2025 – Present): Image forensics. <em>Co-supervised with Dr. Xiaodong Lin.</em></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Professional Service Section -->
+        <section id="service" class="section">
+            <h2 class="section-title"><i class="fas fa-users-cog"></i> Professional Service</h2>
+
+            <h3 style="margin-top: 10px; margin-bottom: 15px;"><i class="fas fa-clipboard-check"></i> Technical Program Committee</h3>
+            <div class="content-box">
+                <ul>
+                    <li>The 39th Annual Canadian Conference on Electrical and Computer Engineering (CCECE 2026)</li>
+                    <li>International Conference on Computing, Networking and Communications (ICNC 2026)</li>
+                    <li>24th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom 2025)</li>
+                    <li>IEEE Global Communications Conference (GLOBECOM 2025)</li>
+                    <li>IEEE 102nd Vehicular Technology Conference (VTC 2025-Fall)</li>
+                    <li>22nd Annual International Conference on Privacy, Security, and Trust (PST 2025)</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 20px; margin-bottom: 15px;"><i class="fas fa-pen-fancy"></i> Journal Reviewer</h3>
+            <div class="content-box">
+                <ul>
+                    <li>IEEE Transactions on Information Forensics and Security (TIFS)</li>
+                    <li>IEEE Transactions on Dependable and Secure Computing (TDSC)</li>
+                    <li>IEEE Transactions on Mobile Computing (TMC)</li>
+                    <li>IEEE Transactions on Parallel and Distributed Systems (TPDS)</li>
+                    <li>IEEE Transactions on Multimedia (TMM)</li>
+                    <li>ACM Transactions on Multimedia Computing, Communications, and Applications</li>
+                    <li>IEEE Transactions on Vehicular Technologies, Cloud Computing, Systems Man and Cybernetics</li>
+                    <li>IEEE Internet of Things Journal, Communications/Wireless/Network Magazines</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 20px; margin-bottom: 15px;"><i class="fas fa-cogs"></i> Lab Service</h3>
+            <div class="content-box">
+                <ul>
+                    <li><strong>BTC Group Administrator</strong> (Jan 2021 – Apr 2024): Maintained shared infrastructure, organized weekly seminars, mentored junior researchers at the Blockchain Technology and Cybersecurity Lab, University of Guelph.</li>
+                </ul>
             </div>
         </section>
 
         <!-- Contact Section -->
         <section id="contact" class="section">
-            <h2 class="section-title"><i class="fas fa-envelope"></i> Contact & Opportunities</h2>
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
             <div class="content-box">
                 <p><strong>Email:</strong> <a href="mailto:qi.li@queensu.ca">qi.li@queensu.ca</a></p>
                 <p><strong>Homepage:</strong> <a href="https://liankong31.github.io/liqi" target="_blank">https://liankong31.github.io/liqi</a></p>
-                <!-- <p><strong>Phone:</strong> +1 (226) 203-8602</p> -->
-                <!-- <p><strong>Location:</strong> Kingston, Ontario, Canada</p> -->
-                
+                <p><strong>Google Scholar:</strong> <a href="https://scholar.google.ca/citations?hl=en&user=bv4ckZgAAAAJ" target="_blank">Profile</a></p>
+
                 <div class="job-seeking">
-                    <h3><i class="fas fa-bullseye"></i> Actively Seeking Opportunities</h3>
+                    <h3><i class="fas fa-bullseye"></i> Currently on the Academic Job Market</h3>
+                    <p>I am actively seeking <strong>tenure-track faculty positions</strong> in Computer Science / Computer Engineering / Information Systems, with research focus on:</p>
                     <ul>
-                        <li><i class="fas fa-shield-alt"></i> <strong>AI Security</strong> roles (Security Researcher, AI Safety Engineer)</li>
-                        <li><i class="fas fa-code"></i> <strong>Frontend Development</strong> with AI/ML integration</li>
-                        <li><i class="fas fa-search"></i> <strong>Digital Forensics</strong> and Incident Response</li>
-                        <li><i class="fas fa-flask"></i> <strong>Research Scientist</strong> positions in AI/ML security</li>
+                        <li><i class="fas fa-shield-alt"></i> <strong>Generative AI Security</strong> (watermarking, deepfake detection, content provenance)</li>
+                        <li><i class="fas fa-robot"></i> <strong>Trustworthy LLMs</strong> (jailbreak defense, unlearning, agent security)</li>
+                        <li><i class="fas fa-search"></i> <strong>Digital Forensics</strong> (audio/image forensics, evidence analysis)</li>
+                        <li><i class="fas fa-lock"></i> <strong>Privacy-Preserving Machine Learning</strong> (differential privacy, federated learning)</li>
                     </ul>
-                    <!-- <p><strong>Open to relocation</strong> | <strong>Expected Salary:</strong> 30k+ (negotiable based on role)</p> -->
                 </div>
             </div>
         </section>
