@@ -702,7 +702,7 @@ body {
 
 /* Job Seeking */
 .job-seeking {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5b6ef5 0%, #7c3aed 100%); 
     padding: 30px;
     border-radius: 12px;
     color: white;
