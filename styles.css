@@ -709,6 +709,11 @@ body {
     margin-top: 30px;
 }
 
+ .job-seeking strong {
+      color: #ffd54a;   /* 高对比金色，紫底上清晰 */                            
+      font-weight: 700;
+  }  
+
 .job-seeking h3 {
     color: white;
     margin-bottom: 20px;
